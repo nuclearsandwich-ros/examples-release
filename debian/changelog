@@ -1,0 +1,14 @@
+ros-turbulent-examples-rclcpp-multithreaded-executor (0.8.2-2bionic) bionic; urgency=high
+
+
+
+ -- Jacob Hassold <jhassold@dcscorp.com>  Tue, 19 Nov 2019 08:00:00 -0000
+
+ros-turbulent-examples-rclcpp-multithreaded-executor (0.8.1-2bionic) bionic; urgency=high
+
+  * Implemented Multithreaded Executor example (#251 <https://github.com/ros2/examples/issues/251>)
+  * Contributors: jhdcs
+
+ -- Jacob Hassold <jhassold@dcscorp.com>  Thu, 24 Oct 2019 07:00:00 -0000
+
+
