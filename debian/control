@@ -1,0 +1,12 @@
+Source: ros-verystable-examples-rclcpp-minimal-composition
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-examples-rclcpp-minimal-composition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: Minimalist examples of composing nodes in the same process
