@@ -1,0 +1,12 @@
+Source: ros-verystable-examples-rclcpp-minimal-service
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-example-interfaces, ros-verystable-rclcpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-examples-rclcpp-minimal-service
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-example-interfaces, ros-verystable-rclcpp, ros-verystable-ros-workspace
+Description: A minimal service server which adds two numbers
