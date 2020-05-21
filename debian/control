@@ -1,0 +1,12 @@
+Source: ros-testing-examples-rclcpp-minimal-client
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-example-interfaces, ros-testing-rclcpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-examples-rclcpp-minimal-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-example-interfaces, ros-testing-rclcpp, ros-testing-ros-workspace
+Description: Examples of minimal service clients
